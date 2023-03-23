@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>MonsuN</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script/jquery-1.12.4.min.js"></script>
+    <script src="script/script.js"></script>
+    
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <h1 id="logo"><img src="images/logo.png" alt="로고"></h1>
+        </header>
+        
+    <div id="main">
+        <div id="slider">
+            <ul id="sbox">
+                <li class="0" id="a"><img src="images/slider01.jpg" alt="1"></li>
+                <li class="1" id="b"><img src="images/slider02.jpg" alt="2"></li>
+                <li class="2" id="c"><img src="images/slider03.jpg" alt="3"></li>
+            </ul>
+            <div id="btn">
+                <button class="prev"> &lt; </button>
+                <button class="next"> &gt; </button>
+            </div>
+            <div class="dot">
+                <a href="#" class="on"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+            </div>
+        </div>
+            <nav>
+                <ul id="gnb">
+                    <li><a href="#">MonsuN</a>
+                        <ul class="sub_menu">
+                            <li><a href="#">인사말</a></li>
+                            <li><a href="#">사업분야</a></li>
+                            <li><a href="#">오시는 길</a></li>
+                        </ul></li>
+                    <li><a href="#">STORY</a>
+                        <ul class="sub_menu">
+                            <li><a href="#">MonsuN 소개</a></li>
+                            <li><a href="#">MonsuN 품질</a></li>
+                            <li><a href="#">수상내역</a></li>
+                        </ul></li>
+                    <li><a href="#">PRODUCTS</a>
+                        <ul class="sub_menu">
+                            <li><a href="#">침실 가구</a></li>
+                            <li><a href="#">부엌 가구</a></li>
+                            <li><a href="#">거실 가구</a></li>
+                            <li><a href="#">옷장/책장</a></li>
+                        </ul></li>
+                    <li><a href="#">DESIGNERS</a>
+                        <ul class="sub_menu">
+                            <li><a href="#">Hae-gong Kim</a></li>
+                        </ul></li>
+
+                    <li><a href="#">COLLECTION</a>
+                        <ul class="sub_menu">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Event Collection</a></li>
+                            <li><a href="#">Day Collection</a></li>
+                            <li><a href="#">Kitchen Collection</a></li>
+                        </ul></li>
+                </ul>
+            </nav>
+        </div>  
+        
+        <div id="content">
+            <section id="info">
+                <h3>INFO</h3>
+                <div id="imgbox"><a href=""><img src="images/banner1.png" alt=""></a></div>
+            </section>
+            <section id="tab_menu">
+               <div id="tab_title">
+                   <a href="#" class="ch 01">NOTICE</a>
+                   <a href="#" class="ch 02">QnA</a>
+               </div>
+               <div id="tab_con">
+                     <div class="con" id="notice"></div>
+                     <div class="con" id="qna"></div>
+               </div>
+            </section>
+            <section id="catalog">
+                <h3>CATALOG</h3>
+                <div id="imgbox"><a href="#popup_bg"><img src="images/banner3.png" alt="배너"></a></div>
+            </section>
+        </div>
+        
+        <footer>
+            <div class="btn_logo">
+                <img src="images/btn_logo.png" alt="btn">
+            </div>
+            <div class="copy">
+                <ul>
+                    <li><a href="#">INFO</a></li>
+                    <li><a href="#">MEDIA</a></li>
+                    <li><a href="#">WEBSITE</a></li>
+                </ul>
+            </div>
+            <p>Copyright. (c) All rights reserved.</p>
+        </footer>
+    <div id="popup_bg">
+        <div id="popup">
+            <h3>카탈로그 신청</h3>
+            <p>카탈로그를 받을 이메일 주소를 입력해주세요.</p>
+            <label for="email"></label>
+            <input id="email" type="text" size="50" value="">
+            <button class="enter">&nbsp;확인&nbsp;</button>
+            <button class="close">닫기X</button>
+        </div>
+    </div>
+    </div>
+    
+</body>
+</html>
